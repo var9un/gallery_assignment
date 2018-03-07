@@ -1,0 +1,9 @@
+<div>Result :-</div>
+
+<%@gallery_traffic.map do |data| %>
+	
+<p>
+	<%= "Room "+ data[0].to_s + ' '+ data[1]["minute_average_visit"].to_s + ' minute average visit, '+ data[1]["visitor_total"].to_s+' visitor(s) total' %>	
+</p>	
+
+<%end%>	

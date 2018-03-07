@@ -1,0 +1,10 @@
+<%= form_with(url:display_galleries_url, local: true) do |form| %>
+	 
+  <h2 style="font-weight: bold; text-align: center;">Varun Assignmemt</h2>
+  <div class="actions">
+    <%= form.file_field :log_file %>
+  </div>
+  <div>
+  <%= form.submit :Upload %>
+  </div>
+<% end %>
