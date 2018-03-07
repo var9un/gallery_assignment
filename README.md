@@ -29,8 +29,9 @@ Things you may want to cover:
 
 		Room 1 20 minute average visit, 2 visitor(s) total
         
+  - Time taken : 6 hours
   - Note:- I am not focusing on Design and not written test cases, i can explain it on call.
-
+  
 
 * ...
 
